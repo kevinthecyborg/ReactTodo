@@ -7,12 +7,7 @@ var Nav = () => {
       <div className="top-bar-left">
         <ul className="menu">
           <li className="menu-text">
-            ReactBoilerplate
-          </li>
-          <li>
-            <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>
-              Home
-            </IndexLink>
+            ReactTodo
           </li>
         </ul>
       </div>
