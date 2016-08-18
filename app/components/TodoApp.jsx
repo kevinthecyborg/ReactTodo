@@ -12,6 +12,12 @@ var TodoApp = React.createClass({
         }, {
           id: 2,
           text: 'Clean the yard'
+        }, {
+          id: 3,
+          text: 'React Course'
+        }, {
+          id: 4,
+          text: 'Kumo'
         }
       ]
     };
@@ -24,8 +30,7 @@ var TodoApp = React.createClass({
         <Nav/>
         <div className="row">
           <div className="column small-centered medium-6 large-4">
-            <TodoList/>
-            {props.children}
+            <TodoList todos={todos}/>
           </div>
         </div>
       </div>
